@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.app{
+    width: 400px;
+    margin: 40px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(201, 214, 214);
+}
+
+.title{
+    text-align: center;
+    height: 60px;
+}
+.wrapper__input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.input__task,
+.input__button{
+    height: 30px;
+    margin-bottom: 15px;
+}
+.input__button{
+    cursor: pointer;
+}
+.input__button:hover{
+    background-color: rgb(171, 250, 171);
+}
+.task__list{
+    border-radius: 5px;
+    background-color: rgb(231, 238, 231);
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+.task__li{
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.task__edit,
+.task__del{
+    cursor: pointer;
+    margin-left: 5px;
+}
+.task__del{
+    width: 40px;
+}
+.task__edit{
+    width: 40px;
+}
+.task__del:hover{
+    background-color: rgb(250, 100, 100);  
+}
+.task__edit:hover{
+    background-color: rgb(255, 255, 105);
+}
+.clear__all{
+    text-align: end;
+}
+.del__all{
+    margin-top: 15px;
+    cursor: pointer;
+}
+.del__all:hover{
+    background-color: rgb(250, 100, 100);
+}
+.footer{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
